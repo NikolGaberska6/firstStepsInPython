@@ -1,0 +1,7 @@
+my_tuple = (9, 2, 7, 4, 1, 5)
+sorted_tuple = sorted(my_tuple)
+print("Кортежът ви във възходящ ред е: ")
+print(*sorted_tuple)
+unsorted_tuple = tuple((sorted(my_tuple, reverse=True)))
+print("Кортежът ви в низходяш ред е: ")
+print(*unsorted_tuple)
